@@ -1,3 +1,5 @@
+export const prerender = true;
+
 async function loadPage(url, { fetch }) {
 	const res = await fetch(url);
 
